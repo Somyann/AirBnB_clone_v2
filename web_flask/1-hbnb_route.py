@@ -6,10 +6,9 @@ Routes:
     /: Displays 'Hello HBNB!'.
     /hbnb: Displays 'HBNB'.
 """
+
 from flask import Flask
-
-app = Flask(__name__)
-
+app = flask(__name__)
 
 @app.route("/", strict_slashes=False)
 def hello_hbnb():
