@@ -67,5 +67,5 @@ def number_template(n):
 """Displays an HTML page only if <n> is an integer."""
      return render_templates("5-number.html",number=n)
 
-if __name__ == "__main__":
+if__name__ '__main__':
     app.run(host="0.0.0.0", port=5000)
